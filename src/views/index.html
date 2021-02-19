@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/index.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" />
+    <title>To-Do App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="margin-top: 100px">To-Do</h1>
+      <div class="bg-transparent">
+        <div class="input-group">
+          <input id="willAddTodo" type="text" class="form-control" placeholder="Bir todo girin." style="background: none; color: white" />
+          <button class="btn btn-outline-primary" id="addTodo">Ekle</button>
+        </div>
+        <hr>
+        <div class="todos">
+            <table class="table table-dark bg-transparent">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">ToDo</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Delete</th>
+                  </tr>
+                </thead>
+                <tbody class="todos-table">
+                </tbody>
+              </table>
+        </div>
+
+        <div class="alert-container">
+            <div class="alert alert-info" role="alert">
+                Görev bulunmuyor!
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+    <script type="text/javascript" src="../static/index.js"></script>
+  </body>
+</html>

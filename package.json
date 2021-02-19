@@ -1,0 +1,22 @@
+{
+  "name": "electron-tutorial",
+  "productName": "To-Do App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.11.17",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "electron": "^11.2.3",
+    "electron-packager": "^15.2.0"
+  }
+}
