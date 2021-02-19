@@ -5,8 +5,7 @@ const path = require("path");
 const url = require("url");
 
 // </> DB Connection </>
-mongoose.connect("mongodb+srv://Theark:8ePNhZC68qDj3HAM@cluster0.irato.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    {
+mongoose.connect("", {
       useUnifiedTopology: true,
       useNewUrlParser: true,
       useFindAndModify: false,
